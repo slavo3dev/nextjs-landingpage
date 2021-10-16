@@ -4,26 +4,26 @@ import Link from "next/link";
 export const MenuItems = () => {
   return (
     <>
-      <Menu.Item as="a" active>
-        <Link href="#top">
-          <a>Home</a>
-        </Link>
-      </Menu.Item>
-      <Menu.Item as="a">
-        <Link href="#infoSegment">
-          <a>Info</a>
-        </Link>
-      </Menu.Item>
-      <Menu.Item as="a">
-        <Link href="#about">
-          <a>About</a>
-        </Link>
-      </Menu.Item>
-      <Menu.Item as="a">
-        <Link href="#caseStudies">
-          <a>Studies</a>
-        </Link>
-      </Menu.Item>
+      <Link href="#top">
+        <a>
+          <Menu.Item active>Home</Menu.Item>
+        </a>
+      </Link>
+      <Link href="#infoSegment">
+        <a>
+          <Menu.Item>Info</Menu.Item>
+        </a>
+      </Link>
+      <Link href="#about">
+        <a>
+          <Menu.Item>About</Menu.Item>
+        </a>
+      </Link>
+      <Link href="#caseStudies">
+        <a>
+          <Menu.Item>Studies</Menu.Item>
+        </a>
+      </Link>
     </>
   );
 };
