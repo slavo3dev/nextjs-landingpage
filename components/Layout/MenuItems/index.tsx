@@ -5,7 +5,9 @@ export const MenuItems = () => {
   return (
     <>
       <Menu.Item as="a" active>
-        Home
+        <Link href="#top">
+          <a>Home</a>
+        </Link>
       </Menu.Item>
       <Menu.Item as="a">
         <Link href="#infoSegment">

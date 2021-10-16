@@ -31,10 +31,11 @@ export default class DesktopContainer extends Component {
           <Segment
             inverted
             textAlign="center"
-            style={{ minHeight: 700, padding: "1em 0em" }}
+            style={{ minHeight: 700, padding: "1.2em 0em" }}
             vertical
           >
             <Menu
+              id="top"
               fixed={fixed ? "top" : undefined}
               inverted={!fixed}
               pointing={!fixed}
