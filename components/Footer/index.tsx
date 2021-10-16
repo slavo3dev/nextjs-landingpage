@@ -1,8 +1,12 @@
-import { Segment, List, Grid, Container, Header } from "semantic-ui-react";
+import {
+  Segment,
+  List,
+  Grid,
+  Container,
+  Header,
+} from "semantic-ui-react";
 
-
-export const Footer = () =>
-{
+export const Footer = () => {
   return (
     <Segment inverted vertical style={{ padding: "5em 0em" }}>
       <Container>
@@ -12,18 +16,18 @@ export const Footer = () =>
               <Header inverted as="h4" content="About" />
               <List link inverted>
                 <List.Item as="a">Sitemap</List.Item>
-                <List.Item as="a">Contact Us</List.Item>
+                <List.Item as="a">About</List.Item>
                 <List.Item as="a">Ceremonies</List.Item>
-                <List.Item as="a">Plans</List.Item>
+                <List.Item as="a">Contact Us</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={3}>
               <Header inverted as="h4" content="Services" />
               <List link inverted>
                 <List.Item as="a">Pre-Order</List.Item>
-                <List.Item as="a">DNA FAQ</List.Item>
+                <List.Item as="a">FAQ</List.Item>
                 <List.Item as="a">How To Access</List.Item>
-                <List.Item as="a">Favorite X-Men</List.Item>
+                <List.Item as="a">Vaccination</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
