@@ -30,6 +30,4 @@ Inside the Componets folder is HeadComponent and HomePageLayout
 
 Everytime you update the `main` branch it will trigger deployment on Vercel
 
-###
-
-[Demo Landing Page]("https://nextjs-landingpage-wheat.vercel.app/")
+[Demo Landing Page](https://nextjs-landingpage-wheat.vercel.app/)
