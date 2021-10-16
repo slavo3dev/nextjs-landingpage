@@ -1,5 +1,5 @@
 import { HeadComponent } from "./HeadComponent";
-import { HomepageLayout } from "./HomePageLayout";
+import { HomepageComponent } from "./HomePageComponent";
+import { Footer } from "./Footer";
 
-
-export { HeadComponent, HomepageLayout};
+export { HeadComponent, HomepageComponent, Footer };
