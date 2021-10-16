@@ -8,7 +8,7 @@ import {
 
 export const InfoSegment = () => {
   return (
-    <Segment id="InfoSegment" style={{ padding: "8em 0em" }} vertical>
+    <Segment id="infoSegment" style={{ padding: "8em 0em" }} vertical>
       <Grid container stackable verticalAlign="middle">
         <Grid.Row>
           <Grid.Column width={8}>

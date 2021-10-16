@@ -8,7 +8,7 @@ import {
   Container,
   Icon,
 } from "semantic-ui-react";
-import Link from "next/link";
+import { MenuItems } from "../MenuItems";
 
 export default class MobileContainer extends Component {
   state = { sidebarOpened: false };
@@ -32,14 +32,7 @@ export default class MobileContainer extends Component {
             vertical
             visible={sidebarOpened}
           >
-            <Menu.Item as="a">Home</Menu.Item>
-            <Menu.Item as="a">
-              <Link href="#InfoSegment">
-                <a>Test</a>
-              </Link>
-            </Menu.Item>
-            <Menu.Item as="a">Work</Menu.Item>
-            <Menu.Item as="a">F&Q</Menu.Item>
+            <MenuItems />
           </Sidebar>
 
           <Sidebar.Pusher dimmed={sidebarOpened}>

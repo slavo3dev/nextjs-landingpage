@@ -7,6 +7,7 @@ import {
 import { Component } from "react";
 import { Media } from "@lib";
 import { HomepageHeading } from "@components/Layout";
+import { MenuItems } from "../MenuItems";
 
 export default class DesktopContainer extends Component {
   state = {
@@ -41,12 +42,7 @@ export default class DesktopContainer extends Component {
               size="large"
             >
               <Container>
-                <Menu.Item as="a" active>
-                  Home
-                </Menu.Item>
-                <Menu.Item as="a">Test</Menu.Item>
-                <Menu.Item as="a">Work</Menu.Item>
-                <Menu.Item as="a">F&Q</Menu.Item>
+                <MenuItems />
               </Container>
             </Menu>
             <HomepageHeading mobile={false} />

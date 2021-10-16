@@ -2,7 +2,7 @@ import { Segment, Grid, Header, Image } from "semantic-ui-react";
 
 export const AboutSegment = () => {
   return (
-    <Segment style={{ padding: "0em" }} vertical>
+    <Segment id="about" style={{ padding: "0em" }} vertical>
       <Grid celled="internally" columns="equal" stackable>
         <Grid.Row textAlign="center">
           <Grid.Column

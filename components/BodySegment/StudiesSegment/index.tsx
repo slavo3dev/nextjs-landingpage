@@ -8,7 +8,7 @@ import {
 
 export const StudiesSegment = () => {
   return (
-    <Segment style={{ padding: "8em 0em" }} vertical>
+    <Segment id="caseStudies" style={{ padding: "8em 0em" }} vertical>
       <Container text>
         <Header as="h3" style={{ fontSize: "2em" }}>
           At-home COVID-19 test kits available at Valley libraries
