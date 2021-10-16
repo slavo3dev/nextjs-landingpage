@@ -1,5 +1,9 @@
 ## Getting Started
 
+Tech Stack: nextjs/ts
+CSS Library: react/semantic-ui.
+Package Manager: yarn
+
 Clone the repo
 
 Install dependencies
@@ -31,3 +35,27 @@ Inside the Componets folder is HeadComponent and HomePageLayout
 Everytime you update the `main` branch it will trigger deployment on Vercel
 
 [Demo Landing Page](https://nextjs-landingpage-wheat.vercel.app/)
+
+WebSite Folder Structure:
+
+components
+
+- BodySegment
+  - AboutSegment
+  - InfoSegment
+  - StudiesSegment
+- Footer
+- HeadComponent
+- HomePageComponent
+- Layout
+  - DesktopContainer
+  - MobileContainer
+  - MenuItems
+  - ResponsiveContainter
+lib
+pages
+- api
+- index.tsx [HomePage]
+public
+- images
+styles
