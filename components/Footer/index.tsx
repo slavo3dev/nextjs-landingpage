@@ -15,13 +15,13 @@ export const Footer = () => {
             <Grid.Column width={3}>
               <Header inverted as="h4" content="About" />
               <List link inverted>
-                <List.Item as="a">Sitemap</List.Item>
+                <List.Item as="a">Site</List.Item>
                 <List.Item as="a">About</List.Item>
                 <List.Item as="a">Ceremonies</List.Item>
-                <List.Item as="a">Contact Us</List.Item>
+                <List.Item as="a">Contact </List.Item>
               </List>
             </Grid.Column>
-            <Grid.Column width={3}>
+            <Grid.Column width={3}>x
               <Header inverted as="h4" content="Services" />
               <List link inverted>
                 <List.Item as="a">Pre-Order</List.Item>
