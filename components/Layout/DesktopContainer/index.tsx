@@ -31,7 +31,7 @@ export default class DesktopContainer extends Component {
           <Segment
             inverted
             textAlign="center"
-            style={{ minHeight: 700, padding: "1.2em 0em" }}
+            style={{ minHeight: 700, padding: "1.2em 0em" , backgroundImage: "url(/images/colleagues-in-a-workspace-working-together-2021-08-27-00-06-11-utc.jpg)" ,  backgroundSize: 'cover'}}
             vertical
           >
             <Menu
