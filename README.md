@@ -59,3 +59,6 @@ pages
 public
 - images
 styles
+
+
+tech stack: NextJS, SemanticUI
